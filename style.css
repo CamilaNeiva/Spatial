@@ -1,0 +1,111 @@
+
+/*Reset*/
+
+body, h1, ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: Arial;
+}
+
+
+/*Menu*/
+
+.header {
+	background-image: url('images/overlay.png'), url('images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-transform: uppercase;	
+	min-height: 700px;
+}
+
+.header h1 strong a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.header h1  {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.menu_container {
+	max-width: 1280px;
+	padding: 56px;
+}
+
+.menu_container::after, .menu_container::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.menu_nav {
+	float: right;
+}
+
+.menu_nav li {
+	display: inline-block;
+}
+
+.menu_nav li a {
+	display: block;
+	padding: 0 25px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+/*INTRO*/
+
+.intro {
+	padding: 0px;
+	text-align: center;
+	color: #fff;
+	margin: 150px;
+}
+
+.intro h2 {
+	text-transform: uppercase;
+	font-size: 50px;
+	margin: 0;
+}
+
+.intro p {
+	color: #aaa;
+	font-size: 20px;
+	line-height: 38px;
+	max-width: 540px;
+	margin: 20px auto 40px;
+}
+
+.intro_btn {
+	width: 200px;
+	border: 3px solid;
+	border-color:#f32853;
+	background-color: #f32853;
+	border-radius: 4px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px 0;
+	margin:	0 auto;
+	letter-spacing: 1px;
+}
+
+
+.intro_btn:hover {
+	border-color: #F44066;
+	background-color: #F44066;
+}
