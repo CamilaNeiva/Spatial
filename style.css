@@ -172,26 +172,69 @@ body {
 	padding-bottom: 55px;
 }
 
-.images1 {
+.images {
 	background-color: #fff;
+	
 }
 
 .images1 h3 {
 	color: rgb(72, 72, 72);
 	text-align: center;
-	padding: 20px;
+	padding: 40px;
 	font-size: 19.5px;
 	box-shadow: 0px 0.0375em 0.125em 0px rgb(0 0 0 / 18%);
-}
-
-.images2 {
-	background-color: #fff;
+	margin: 0 auto;
 }
 
 .images2 h3 {
 	color: rgb(72, 72, 72);
 	text-align: center;
-	padding: 20px;
+	padding: 40px;
 	font-size: 19.5px;
 	box-shadow: 0px 0.0375em 0.125em 0px rgb(0 0 0 / 18%);
+	margin: 0 auto;
 }
+
+.portfolio-btn1	{
+	width: 200px;
+	border: 3px solid;
+	border-color:#f32853;
+	background-color: #f32853;
+	border-radius: 4px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px 0;
+	margin:	60px 14px 40px 380px;
+	letter-spacing: 1px;
+	float: left;
+}
+
+.portfolio_btn1:hover {
+	border-color: #F44066;
+	background-color: #F44066;
+}
+
+.portfolio-btn2	{
+	width: 200px;
+	border: 3px solid;
+	border-color:rgb(50, 48, 55);
+	background-color: rgb(50, 48, 55);
+	border-radius: 4px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px 0;
+	margin:	60px 380px 40px 14px;
+	letter-spacing: 1px;
+	float: right;
+}
+
