@@ -1,15 +1,19 @@
 
 /*Reset*/
 
-body, h1, ul{
+body, h1, h2, ul {
 	padding: 0px;
 	margin: 0px;
+
 }
 
 body {
-	font-family: Arial;
+	font-family: "Raleway";
 }
 
+* {
+	box-sizing: border-box;
+}
 
 /*Menu*/
 
@@ -41,7 +45,7 @@ body {
 	padding: 56px;
 }
 
-.menu_container::after, .menu_container::before {
+.clearfix::after, .clearfix::before {
 	content: "";
 	display: table;
 	clear: both;
@@ -108,4 +112,86 @@ body {
 .intro_btn:hover {
 	border-color: #F44066;
 	background-color: #F44066;
+}
+
+/*SOBRE*/
+
+.sobre {
+	padding: 80px;
+}
+
+.sobre_container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.sobre h2 {
+	text-transform: uppercase;
+	color: #484848;
+	font-size: 2.5em;
+	font-weight: bold;
+	max-width: 350px;
+	line-height: 1.5em;
+	margin-top: 5px; 
+}
+
+.sobre_esquerda p {
+ color: rgb(170, 170, 170);
+ font-size: 24.933px;
+}
+
+.sobre_direita {
+	margin-bottom: 20px;
+	color: rgb(102, 102, 102);
+	font-size: 15px;
+	line-height: 29.333px;
+}
+
+.sobre_direita2 {
+	margin-top: 25px;
+}
+
+/*PORTFOLIO*/
+
+.portfolio_container {
+	background-color: #f6f6f6;
+	padding: 80px;
+	margin: 0 auto;
+}
+
+.principal h2 {
+	font-size: 2.7em;
+	text-align: center;
+	color: #484848;
+}
+
+.principal p {
+	font-size: 1.5em;
+	text-align: center;
+	color: #aaa;
+	padding-bottom: 55px;
+}
+
+.images1 {
+	background-color: #fff;
+}
+
+.images1 h3 {
+	color: rgb(72, 72, 72);
+	text-align: center;
+	padding: 20px;
+	font-size: 19.5px;
+	box-shadow: 0px 0.0375em 0.125em 0px rgb(0 0 0 / 18%);
+}
+
+.images2 {
+	background-color: #fff;
+}
+
+.images2 h3 {
+	color: rgb(72, 72, 72);
+	text-align: center;
+	padding: 20px;
+	font-size: 19.5px;
+	box-shadow: 0px 0.0375em 0.125em 0px rgb(0 0 0 / 18%);
 }
