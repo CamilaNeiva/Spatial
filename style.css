@@ -305,3 +305,80 @@ body {
 	line-height: 29px;
 }
 
+
+/*QUEBRA*/
+
+.quebra {
+	background-image: url('images/overlay.png'), url('images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-transform: uppercase;	
+	padding: 80px;
+	text-align: center;
+	color: #fff;
+}
+
+.quebra h2 {
+	text-transform: uppercase;
+	font-size: 45px;
+	margin: 0;
+}
+
+.quebra p {
+	color: #aaa;
+	font-size: 25px;
+	line-height: 38px;
+	max-width: 540px;
+	margin: 20px auto 40px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+	line-height: 29px;
+	background: #f6f6f6;
+	color: #aaa;
+	padding: 8em 0 6em 0;
+	text-align: center;
+	display: block;
+
+}
+
+.footer ul li {
+	display: inline-block;
+}
+
+.copyright {
+	color: #aaa;
+	font-size: 15px;
+	margin-top: 50px;
+}
+
+.copyright li a {
+	text-decoration:none;
+	font-size: 15px;
+	color: #aaa;
+}
+
+.copyright li {
+	border-right: 1px solid;
+	padding: 0 25px;
+} 
+
+.footer .fab {
+	color: #aaa;
+	font-size: 44px;
+	transition: color 0.3s;
+	padding: 15px;
+  margin: 0 20px;
+}
+
+.footer .fab:hover {
+	color: #666;
+}
+
+.copyright li:last-child {
+	border-right: none;
+}
