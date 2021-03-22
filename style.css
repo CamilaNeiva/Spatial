@@ -15,6 +15,10 @@ body {
 	box-sizing: border-box;
 }
 
+img {
+	max-width: 100%;
+}
+
 /*Menu*/
 
 .header {
@@ -26,7 +30,7 @@ body {
 	min-height: 700px;
 }
 
-.header h1 strong a {
+.header h1 a {
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: bold;
@@ -91,19 +95,18 @@ body {
 }
 
 .intro_btn {
-	width: 200px;
 	border: 3px solid;
 	border-color:#f32853;
 	background-color: #f32853;
 	border-radius: 4px;
 	color: #fff;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 15px 0;
+	padding: 15px 25px;
 	margin:	0 auto;
 	letter-spacing: 1px;
 }
@@ -169,7 +172,7 @@ body {
 	font-size: 1.5em;
 	text-align: center;
 	color: #aaa;
-	padding-bottom: 55px;
+	margin-bottom: 55px;
 }
 
 .images li {
@@ -194,35 +197,12 @@ body {
 	margin: 0 auto;
 }
 
-.portfolio-btn1	{
-	width: 200px;
-	border: 3px solid;
-	border-color:#f32853;
-	background-color: #f32853;
-	border-radius: 4px;
-	color: #fff;
-	text-decoration: none;
-	display: block;
-	font-size: 18px;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 15px 0;
-	margin:	60px 14px 5px 380px;
-	letter-spacing: 1px;
-	float: left;
+.portfolio-buttons{
+	margin: 30px 0;
 }
 
-.portfolio_btn1:hover {
-	border-color: #F44066;
-	background-color: #F44066;
-}
-
-.portfolio-btn2	{
-	width: 200px;
+.portfolio-btn {
 	border: 3px solid;
-	border-color:rgb(50, 48, 55);
-	background-color: rgb(50, 48, 55);
 	border-radius: 4px;
 	color: #fff;
 	text-decoration: none;
@@ -231,11 +211,30 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 15px 0;
-	margin:	60px 380px 5px 14px;
+	padding: 15px 25px;
+	margin:	0 auto;
 	letter-spacing: 1px;
+}
+
+.portfolio-btn1	{
+	border-color:#f32853;
+	background-color: #f32853;
 	float: right;
 }
+
+.portfolio_btn1:hover {
+	border-color: #F44066;
+	background-color: #F44066;
+}
+
+.portfolio-btn2	{
+	border-color:rgb(50, 48, 55);
+	background-color: rgb(50, 48, 55);
+}
+
+
+ 
+
 
 /*PRODUTOS*/
 
@@ -258,32 +257,13 @@ body {
 	color: #aaa;
 }
 
-.thumbnail {
-	float: right;
-	margin: 0 auto; 
+.descricao:nth-child(odd) {
+	text-align: right;
 }
 
 .thumbnail img {
 	border-radius: 50%;
 	border: 8px solid rgba(144, 144, 144, 0.25); 
-	max-width: 175px;
-}
-
-.direita .thumbnail {
-	float: left;
-}
-
-.descricao {
-	max-width: 70%;
-  display: inline-block;
-}
-
-.esquerda .descricao {
-	text-align: right;
-}
-
-.direita .descricao {
-	float: right;
 }
 
 .descricao h3 {
@@ -304,7 +284,6 @@ body {
 	font-size: 14px;
 	line-height: 29px;
 }
-
 
 /*QUEBRA*/
 

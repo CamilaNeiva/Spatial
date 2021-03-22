@@ -7,8 +7,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="grid.css">
   <script src="https://kit.fontawesome.com/c9e7c3e582.js" crossorigin="anonymous"></script>
-  <title>Spatial</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="responsivo.css">
+  <title>Spatial</title>
 </head>
 <body>
 
@@ -33,11 +34,11 @@
 
 	<section class="sobre">
 		<div class="sobre_container clearfix">
-			<div class="sobre_esquerda grid-6">
+			<div class="sobre_esquerda grid-6 grid-12-t">
 				<h2>MAECENAS LUCTUS LECTUS</h2>
 				<p>PERSPICIATIS DOLOREMQUE RECUSANDAE DOLOR</p>
 			</div>
-			<div class="sobre_direita grid-6">
+			<div class="sobre_direita grid-6 grid-12-t">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ea mollitia corporis id, distinctio sunt veritatis officiis dolore reprehenderit deleniti voluptatibus harum magna, doloremque alias quisquam minus, eaque. Feugiat quod, nesciunt! Iste quos ipsam, iusto sit esse.</p>
 				<p class="sobre_direita2">Dolorum aspernatur maxime libero ratione quidem distinctio, placeat fugiat laborum voluptatum enim neque soluta vel sunt id ex veritatis. Labore rerum, odit sapiente, alias mollitia magnam exercitationem modi amet earum quia atque ipsum voluptas asperiores quas laboriosam.</p>		
 			</div>
@@ -51,25 +52,26 @@
 				<p>MAECENAS VITAE TELLUS FEUGIAT ELEIFEND</p>
 			</div>
 
-			<ul class="images">
-				<li class="images1 grid-6">
+			<ul class="images clearfix">
+				<li class="images1 grid-6 grid-12-t">
 					<img src="images/pic02.jpg">
 					<h3>LOREM IPSUM DOLOR SIT AMET.</h3>
 				</li>
-				<li class="images2 grid-6">
+				<li class="images2 grid-6 grid-12-t">
 					<img src="images/pic03.jpg">
 					<h3>ILLUM, MAIORES TEMPORA CUPID?</h3>
 				</li>
 			</ul>
 
-			<ul>
-				<li>
-					<a class="portfolio-btn1" href="#">NULLA LUCTUS</a>
-				</li>
-				<li>
-					<a class="portfolio-btn2" href="#">SED VULPUTAT</a>
-				</li>
-			</ul>
+			<div class="portfolio-buttons clearfix">
+				<div class="grid-6">
+					<a class="portfolio-btn portfolio-btn1" href="#">NULLA LUCTUS</a>
+				</div>
+				<div class="grid-6">
+						<a class="portfolio-btn portfolio-btn2" href="#">SED VULPUTAT</a>
+				</div>
+			</div>
+							
 		</div>
 	</section>
 
@@ -80,47 +82,55 @@
 		</div>
 
 		<div class="produtos_container clearfix">
-			<div class="grid-6 esquerda">
-				<div class="descricao">
-					<h3>LOREM IPSUM</h3>
-					<h4>LOREM IPSUM DOLOR SIT</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore esse tenetur accusantium porro omnis, unde mollitia totam sit nesciunt consectetur.</p>
-				</div>
-				<div class="thumbnail">
-					<img src="images/pic04.jpg">
-				</div>
-			</div>
-
-			<div class="grid-6 direita">
-				<div class="thumbnail">
-					<img src="images/pic05.jpg">
-				</div>
-				<div class="descricao">
-					<h3>RECUSANDAE NEMO</h3>
-					<h4>RATIONE MAIORES A, COMMODI</h4>
-					<p>Animi mollitia optio culpa expedita. Dolorem alias minima culpa repellat. Dolores, fuga maiores ut obcaecati blanditiis, at aperiam doloremque.</p>
+			<div class="grid-6 grid-12-t">
+				<div class="row clearfix card-item">
+					<div class="grid-9 descricao">
+						<h3>LOREM IPSUM</h3>
+						<h4>LOREM IPSUM DOLOR SIT</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore esse tenetur accusantium porro omnis, unde mollitia totam sit nesciunt consectetur.</p>
+					</div>
+					<div class="grid-3 thumbnail">
+						<img src="images/pic04.jpg">
+					</div>
 				</div>
 			</div>
 
-			<div class="grid-6 esquerda">
-				<div class="descricao">
-					<h3>LAUDANTIUM FUGIT</h3>
-					<h4>POSSIMUS EX REPREHENDERIT EAQUE</h4>
-					<p>Maiores iusto inventore fugit architecto est iste expedita commodi sed, quasi feugiat nam neque mollitia vitae omnis, ea natus facere.</p>
-				</div>
-				<div class="thumbnail">
-					<img src="images/pic06.jpg">
+			<div class="grid-6 grid-12-t">
+				<div class="row clearfix card-item">
+					<div class="grid-3 thumbnail">
+						<img src="images/pic05.jpg">
+					</div>
+					<div class="grid-9 descricao">
+						<h3>LOREM IPSUM</h3>
+						<h4>LOREM IPSUM DOLOR SIT</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore esse tenetur accusantium porro omnis, unde mollitia totam sit nesciunt consectetur.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class="grid-6 direita">
-				<div class="thumbnail">
-					<img src="images/pic07.jpg">
+			<div class="grid-6 grid-12-t">
+				<div class="row clearfix card-item">
+					<div class="grid-9 descricao">
+						<h3>LOREM IPSUM</h3>
+						<h4>LOREM IPSUM DOLOR SIT</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore esse tenetur accusantium porro omnis, unde mollitia totam sit nesciunt consectetur.</p>
+					</div>
+					<div class="grid-3 thumbnail">
+						<img src="images/pic06.jpg">
+					</div>
 				</div>
-				<div class="descricao">
-					<h3>PORRO ALIQUAM</h3>
-					<h4>QUAERAT, EXCEPTURI EVENIET LABORIOSAM</h4>
-					<p>Vitae earum unde, autem labore voluptas ex, iste dolorum inventore natus consequatur iure similique obcaecati aut corporis hic in! Porro sed.</p>
+			</div>
+	
+			<div class="grid-6 grid-12-t">
+				<div class="row clearfix card-item">
+					<div class="grid-3 thumbnail">
+						<img src="images/pic07.jpg">
+					</div>
+					<div class="grid-9 descricao">
+						<h3>LOREM IPSUM</h3>
+						<h4>LOREM IPSUM DOLOR SIT</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore esse tenetur accusantium porro omnis, unde mollitia totam sit nesciunt consectetur.</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -130,7 +140,7 @@
 		<div class="quebra">
 			<h2>AENEAN ELEMENTUM LIGULA</h2>
 			<p>FEUGIAT SED LOREM IPSUM MAGNA</p>
-			<a class="intro_btn" href="#">Get in touch</a>
+			<a class="intro_btn intro_btn1" href="#">Get in touch</a>
 		</div>
 	</section>
 
